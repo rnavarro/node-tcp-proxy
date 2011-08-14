@@ -22,7 +22,7 @@ Let's suppose you were running multiple http application servers, and all of the
 
 There are several ways to use node-tcp-proxy; the library is designed to be flexible so that it can be used by itself, or in conjunction with other node.js libraries / tools.
 
-See the [examples] for working sample code.
+See the [examples][1] for working sample code.
 
 Invoke it like so:
 
