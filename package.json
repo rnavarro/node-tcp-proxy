@@ -1,0 +1,25 @@
+{
+  "author": "Robert Navarro <crshman@gmail.com> (http://www.crshman.com)",
+  "name": "tcp-proxy",
+  "description": "A node.js TCP proxy [for mysql]",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rnavarro/node-tcp-proxy.git"
+  },
+  "main": "./lib/tcp-proxy",
+  "engines": {
+    "node": ">= 0.3.8"
+  },
+  "dependencies": {
+  	"nomnom":"",
+  	"winston":""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["proxy","tcp proxy","tcp-proxy"],
+  "homepage": "https://github.com/rnavarro/node-tcp-proxy",
+  "bin": { "node-tcp-proxy": "./bin/node-tcp-proxy" }
+}
