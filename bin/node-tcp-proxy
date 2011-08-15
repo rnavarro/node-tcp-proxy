@@ -68,7 +68,7 @@ parser.command('list')
 parser.parseArgs();
 
 function sendCommand(data) {
-	socket = net.createConnection('/var/run/nodeSQL-proxy/nodeSQL-proxy.sock');
+	socket = net.createConnection('/var/run/node-tcp-proxy/node-tcp-proxy.sock');
 	socket.setEncoding('utf8');
 	
 	// Send our request
