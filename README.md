@@ -1,3 +1,5 @@
+# node-tcp-proxy - v0.1.0
+
 ### Features
 
 * Reverse proxies incoming tcp streams
@@ -16,7 +18,14 @@ Let's suppose you were running multiple http application servers, and all of the
 
 ### Installing node-tcp-proxy
 
+If you don't plan on using the provided cli client, this is all you need:
 ```npm install tcp-proxy```
+
+If you intend on using the provided cli client, then have to do the following:
+```npm install -g tcp-proxy``
+
+Then in the root of your application run:
+```npm link```
 
 ## Using node-tcp-proxy
 
@@ -28,12 +37,17 @@ Invoke it like so:
 
 ```node-tcp-proxy --help```
 
+
+
 ## Using node-tcp-proxy from the command line
+
 When you install this package with npm, a node-tcp-proxy binary will become available to you. Using this binary is easy with some simple options:
 
-```node-tcp-proxy --help
-usage: node-tcp-proxy <command> [options]
-command one of : add,remote,list```
+Invoke it like so:
+
+```node-tcp-proxy --help```
+
+Remember, if you want to use this command globally, install the package globally
 
 ## Why doesn't node-tcp-proxy have more advanced features like x, y, or z?
 
