@@ -33,11 +33,13 @@ There are several ways to use node-tcp-proxy; the library is designed to be flex
 
 See the [examples][1] for working sample code.
 
-Invoke it like so:
+### As a service
 
-```node-tcp-proxy --help```
+I have provided a functional LSB compliant init.d script that was tested on ubuntu 10.04 and 10.10. To use this script I highly recommend the use of forever.
 
+```npm -g install forever```
 
+Don't forget to copy the init script to ```/etc/init.d/``` and make sure it's executable
 
 ## Using node-tcp-proxy from the command line
 
